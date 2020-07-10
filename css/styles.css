@@ -641,7 +641,7 @@ code {
 /* Sidebar modules for boxing content */
 .sidebar-module {
   padding: 15px;
-  margin: 20px 0px 15px -40px;
+  margin: 20px -15px 15px -15px;
   font-size: 16px;
 }
 .sidebar-module h4 {
