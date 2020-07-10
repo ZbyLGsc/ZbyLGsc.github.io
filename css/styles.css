@@ -107,7 +107,7 @@
 }
 #article-nav>li {
   padding: 2px;
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
 #article-nav>li>a {
   border: 1px solid #337ab7;
@@ -490,7 +490,7 @@
 
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
-  color: #555;
+  /* color: #555; */
 }
 
 h1, .h1,
@@ -564,6 +564,7 @@ code {
 .navbar-inverse .navbar-nav>li>a {
   color: #cdddeb;
   font-weight: 500;
+  font-size: 18px;
 }
 
 .navbar-inverse .navbar-collapse,
@@ -640,7 +641,7 @@ code {
 /* Sidebar modules for boxing content */
 .sidebar-module {
   padding: 15px;
-  margin: 0px -20px 15px -20px;
+  margin: 20px 0px 15px -40px;
   font-size: 16px;
 }
 .sidebar-module h4 {
@@ -789,8 +790,11 @@ code {
   margin-bottom: 0;
 }
 
+
+/* my customized style */
+
 .news {
-  border-bottom: 2px solid blue;
+  border-bottom: 2px solid #428bca;
   margin-bottom: 20px;
   padding: 10px;
   overflow: auto;
@@ -802,9 +806,30 @@ code {
 }
 
 .video {
-  border-bottom: 2px solid blue;
+  border-bottom: 2px solid #428bca;
   margin-bottom: 20px;
   padding: 10px
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px -10px;
+  padding: 0;
+  width: 100%;
+  /* background-color: #f1f1f1; */
+}
+
+li a {
+  display: block;
+  color: #333;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #428bca;
+  color: white;
 }
 
 
