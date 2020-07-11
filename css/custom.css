@@ -157,7 +157,7 @@ code {
   font-size: 17.5px;
   line-height: 1.5;
   margin-right: 0px;
-  margin-left: -10px;
+  margin-left: 0px;
 }
 .blog-main > article:last-of-type {
   margin-bottom: 30px;
