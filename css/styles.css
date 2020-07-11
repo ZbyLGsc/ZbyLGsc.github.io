@@ -148,8 +148,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
   height: 100%;
+  width: 100%;
   margin-top: 0;
 }
 
@@ -632,8 +632,9 @@ code {
  */
 
 .blog-main {
-  font-size: 18px;
+  font-size: 17.5px;
   line-height: 1.5;
+  padding-right: 50px;
 }
 .blog-main > article:last-of-type {
   margin-bottom: 30px;
@@ -675,7 +676,6 @@ code {
 
 .article {
   margin-bottom: 60px;
-  margin-right: -15px;
 }
 
 .article-header h1 {
@@ -798,6 +798,7 @@ code {
 .news {
   border-bottom: 2px solid #428bca;
   margin-bottom: 20px;
+  padding-bottom: 20px;
   /* padding: 10px; */
   overflow: auto;
 }
@@ -810,6 +811,7 @@ code {
 .video {
   border-bottom: 2px solid #428bca;
   margin-bottom: 20px;
+  padding-bottom: 30px;
   /* padding: 10px */
 }
 
