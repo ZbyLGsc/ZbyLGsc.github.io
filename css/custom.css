@@ -159,6 +159,7 @@ code {
   line-height: 1.5;
   margin-right: 5px;
   margin-left: -5px;
+  text-align: justify;
 }
 .blog-main > article:last-of-type {
   margin-bottom: 30px;
@@ -172,7 +173,7 @@ code {
   margin-left: -5px;
   margin-right: -5px;
   font-size: 15.5px;
-  text-align: left;
+  /* text-align: justify; */
 }
 .sidebar-module h4 {
   margin-top: 0;
