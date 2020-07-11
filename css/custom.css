@@ -12,7 +12,9 @@
 
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
-  /* color: #555; */
+  /* word-wrap: break-word; */
+  /* word-break: break-word; */
+  hyphens: auto;
 }
 
 h1, .h1,
@@ -23,9 +25,17 @@ h5, .h5,
 h6, .h6 {
   margin-top: 1em;
   margin-bottom: 15px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: normal;
+  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  font-weight: bold;
   color: #333;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 21px;
 }
 
 p {
@@ -140,8 +150,8 @@ code {
 .blog-title {
   margin-top: 30px;
   margin-bottom: 30px;
-  font-size: 40px;
-  font-weight: normal;
+  font-size: 25px;
+  font-weight: bold;
 }
 .blog-description {
   font-size: 20px;
@@ -153,8 +163,11 @@ code {
  */
 
 .blog-main {
-  font-size: 18px;
+  font-size: 17.5px;
   line-height: 1.5;
+  margin-right: 5px;
+  margin-left: -5px;
+  text-align: justify;
 }
 .blog-main > article:last-of-type {
   margin-bottom: 30px;
@@ -163,15 +176,19 @@ code {
 /* Sidebar modules for boxing content */
 .sidebar-module {
   padding: 15px;
-  margin: 20px -15px 15px -15px;
-  font-size: 16px;
+  margin-top: 25px ; 
+  margin-bottom: 15px;
+  margin-left: -5px;
+  margin-right: -5px;
+  font-size: 17.5px;
+  text-align: justify;
 }
 .sidebar-module h4 {
   margin-top: 0;
   margin-bottom: 10px;
 }
 .sidebar-module-inset {
-  padding: 15px;
+  /* padding: 15px; */
   background-color: #f5f5f5;
   border-radius: 4px;
 }
@@ -316,9 +333,9 @@ code {
 /* my customized style */
 
 .news {
-  border-bottom: 2px solid #428bca;
-  margin-bottom: 20px;
-  padding: 10px;
+  border-bottom: 2px solid #757575;
+  padding: 30px 0px;
+  /* padding: 10px; */
   overflow: auto;
 }
 
@@ -328,28 +345,33 @@ code {
 }
 
 .video {
-  border-bottom: 2px solid #428bca;
-  margin-bottom: 20px;
-  padding: 10px
+  border-bottom: 2px solid #757575;
+  padding: 40px 0px 30px;
+  /* padding: 10px */
 }
 
-ul {
+.sidenav ul {
   list-style-type: none;
-  margin: 0px -10px;
+  margin: 0px 0px;
   padding: 0;
+  padding-top: 35px;
   width: 100%;
-  /* background-color: #f1f1f1; */
+  font-weight: bold;
+  font-size: 21px;
+  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  border-top: 2px solid #757575;
+  /* border: solid; */
 }
 
-li a {
+.sidenav li a {
   display: block;
   color: #333;
-  padding: 8px 16px;
+  padding: 8px 0px;
   text-decoration: none;
 }
 
 /* Change the link color on hover */
-li a:hover {
+.sidenav li a:hover {
   background-color: #428bca;
   color: white;
 }
