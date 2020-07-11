@@ -13,6 +13,7 @@
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
   /* color: #555; */
+  /* color: blue; */
 }
 
 h1, .h1,
@@ -140,8 +141,8 @@ code {
 .blog-title {
   margin-top: 30px;
   margin-bottom: 30px;
-  font-size: 40px;
-  font-weight: normal;
+  font-size: 35px;
+  font-weight: bold;
 }
 .blog-description {
   font-size: 20px;
@@ -196,6 +197,7 @@ code {
 
 .article {
   margin-bottom: 60px;
+  margin-right: -15px;
 }
 
 .article-header h1 {
@@ -318,7 +320,7 @@ code {
 .news {
   border-bottom: 2px solid #428bca;
   margin-bottom: 20px;
-  padding: 10px;
+  /* padding: 10px; */
   overflow: auto;
 }
 
@@ -330,18 +332,23 @@ code {
 .video {
   border-bottom: 2px solid #428bca;
   margin-bottom: 20px;
-  padding: 10px
+  /* padding: 10px */
 }
 
-ul {
+.sidenav ul {
   list-style-type: none;
   margin: 0px -10px;
   padding: 0;
   width: 100%;
-  /* background-color: #f1f1f1; */
+  /* font-weight: bold; */
+  font-size: 18px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border-top: 1px solid #428bca;
+  padding-top: 15px;
+  /* border: solid; */
 }
 
-li a {
+.sidenav li a {
   display: block;
   color: #333;
   padding: 8px 16px;
@@ -349,7 +356,7 @@ li a {
 }
 
 /* Change the link color on hover */
-li a:hover {
+.sidenav li a:hover {
   background-color: #428bca;
   color: white;
 }
