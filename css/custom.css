@@ -12,8 +12,8 @@
 
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
-  /* color: #555; */
-  /* color: blue; */
+  text-align: justify;
+  word-break: break-word;
 }
 
 h1, .h1,
@@ -169,15 +169,16 @@ code {
   margin-top: 25px ; 
   margin-bottom: 15px;
   margin-left: 0px;
-  margin-right: -30px;
-  font-size: 16px;
+  margin-right: 0px;
+  font-size: 15.5px;
+  text-align: left;
 }
 .sidebar-module h4 {
   margin-top: 0;
   margin-bottom: 10px;
 }
 .sidebar-module-inset {
-  padding: 15px;
+  /* padding: 15px; */
   background-color: #f5f5f5;
   border-radius: 4px;
 }
