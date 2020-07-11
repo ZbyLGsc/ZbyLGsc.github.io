@@ -503,7 +503,11 @@ h5, .h5,
 h6, .h6 {
   margin-top: 1em;
   margin-bottom: 15px;
+<<<<<<< HEAD
   /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+=======
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+>>>>>>> 8290ecac58517a5b28fa2e8287e9ee84402b2a08
   font-weight: bold;
   color: #333;
 }
@@ -628,7 +632,11 @@ code {
 .blog-title {
   margin-top: 30px;
   margin-bottom: 30px;
+<<<<<<< HEAD
   font-size: 25px;
+=======
+  font-size: 28px;
+>>>>>>> 8290ecac58517a5b28fa2e8287e9ee84402b2a08
   font-weight: bold;
 }
 .blog-description {
@@ -658,8 +666,13 @@ code {
   margin-bottom: 15px;
   margin-left: -5px;
   margin-right: -5px;
+<<<<<<< HEAD
   font-size: 17.5px;
   text-align: justify;
+=======
+  font-size: 15.5px;
+  /* text-align: justify; */
+>>>>>>> 8290ecac58517a5b28fa2e8287e9ee84402b2a08
 }
 .sidebar-module h4 {
   margin-top: 0;
@@ -811,8 +824,14 @@ code {
 /* my customized style */
 
 .news {
+<<<<<<< HEAD
   border-bottom: 2px solid #757575;
   padding: 30px 0px;
+=======
+  border-bottom: 2px solid #428bca;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+>>>>>>> 8290ecac58517a5b28fa2e8287e9ee84402b2a08
   /* padding: 10px; */
   overflow: auto;
 }
@@ -823,8 +842,14 @@ code {
 }
 
 .video {
+<<<<<<< HEAD
   border-bottom: 2px solid #757575;
   padding: 40px 0px 30px;
+=======
+  border-bottom: 2px solid #428bca;
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+>>>>>>> 8290ecac58517a5b28fa2e8287e9ee84402b2a08
   /* padding: 10px */
 }
 
@@ -835,9 +860,16 @@ code {
   padding-top: 35px;
   width: 100%;
   font-weight: bold;
+<<<<<<< HEAD
   font-size: 21px;
   /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
   border-top: 2px solid #757575;
+=======
+  font-size: 17px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border-top: 1px solid #428bca;
+  padding-top: 15px;
+>>>>>>> 8290ecac58517a5b28fa2e8287e9ee84402b2a08
   /* border: solid; */
 }
 
