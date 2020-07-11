@@ -26,8 +26,16 @@ h6, .h6 {
   margin-top: 1em;
   margin-bottom: 15px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: normal;
+  font-weight: bold;
   color: #333;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 21px;
 }
 
 p {
@@ -142,7 +150,7 @@ code {
 .blog-title {
   margin-top: 30px;
   margin-bottom: 30px;
-  font-size: 35px;
+  font-size: 28px;
   font-weight: bold;
 }
 .blog-description {
@@ -346,11 +354,11 @@ code {
 
 .sidenav ul {
   list-style-type: none;
-  margin: 0px -10px;
+  margin: 0px 0px;
   padding: 0;
   width: 100%;
-  /* font-weight: bold; */
-  font-size: 18px;
+  font-weight: bold;
+  font-size: 17px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   border-top: 1px solid #428bca;
   padding-top: 15px;
@@ -360,7 +368,7 @@ code {
 .sidenav li a {
   display: block;
   color: #333;
-  padding: 8px 16px;
+  padding: 8px 0px;
   text-decoration: none;
 }
 
