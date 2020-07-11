@@ -12,8 +12,9 @@
 
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
-  text-align: justify;
-  word-break: break-word;
+  /* word-wrap: break-word; */
+  /* word-break: break-word; */
+  hyphens: auto;
 }
 
 h1, .h1,
@@ -156,8 +157,8 @@ code {
 .blog-main {
   font-size: 17.5px;
   line-height: 1.5;
-  margin-right: 0px;
-  margin-left: 0px;
+  margin-right: 5px;
+  margin-left: -5px;
 }
 .blog-main > article:last-of-type {
   margin-bottom: 30px;
@@ -168,8 +169,8 @@ code {
   padding: 15px;
   margin-top: 25px ; 
   margin-bottom: 15px;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-left: -5px;
+  margin-right: -5px;
   font-size: 15.5px;
   text-align: left;
 }
