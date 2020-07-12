@@ -106,8 +106,25 @@ ga('send', 'pageview');
 <div class="container">
   <br>
   <div id=header-img >
-    <img src=/assets/img/hkust.png alt="HKUST", width="100%">
+    <img class="headerSlides" src=/assets/img/header2.jpg alt="header-img", width="100%">
+    <img class="headerSlides" src=/assets/img/header1.jpg alt="header-img", width="100%">
   </div>
+  <script>
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("headerSlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 3000); // Change image every 2 seconds
+    }
+  </script>
 </div>
 
   <div class="container">
@@ -250,7 +267,7 @@ ga('send', 'pageview');
     
 
     <footer class="article-footer">
-      <!-- <a data-url="http://yoursite.com/2020/07/12/home/" data-id="ckci2cu9a0002bw5y93sp8gzz" class="article-share-link">
+      <!-- <a data-url="http://yoursite.com/2020/07/12/home/" data-id="ckcjebdz20002zb5y0exdcidu" class="article-share-link">
         <i class="fa fa-share"></i> Share
       </a> -->
       
@@ -274,7 +291,7 @@ ga('send', 'pageview');
   <div class="sidebar-module sidebar-module-inset">
   <!-- <h4>About</h4> -->
   <p>
-    <img src="/assets/img/person.jpg" alt="Boyu" style="margin-left:auto; margin-right:auto; display:block; width:90%; border-radius: 50%;">
+    <img src="/assets/img/about.png" alt="Boyu" style="margin-left:auto; margin-right:auto; display:block; width:80%; border-radius: 25%;">
     <h3>About</h3>
     Boyu Zhou, Ph.D. Candidate in the <a href="http://uav.ust.hk" target="_blank" rel="noopener">Aerial Robotics Group</a>,
     <a href="http://ri.ust.hk" target="_blank" rel="noopener">Robotics Institute</a>, Hong Kong University of Science and Technology. 

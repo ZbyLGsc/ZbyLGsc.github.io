@@ -645,6 +645,7 @@ code {
   line-height: 1.5;
   margin-right: 5px;
   margin-left: -5px;
+  margin-top: -20px;
   text-align: justify;
 }
 .blog-main > article:last-of-type {
@@ -654,7 +655,7 @@ code {
 /* Sidebar modules for boxing content */
 .sidebar-module {
   padding: 15px;
-  margin-top: 25px ; 
+  margin-top: 10px ; 
   margin-bottom: 15px;
   margin-left: -5px;
   margin-right: -5px;
