@@ -17,7 +17,7 @@
     <link rel="alternate" href="/atom.xml" title="Boyu Zhou&#39;s Homepage" type="application/atom+xml">
   
   
-    <link rel="icon" href="/assets/img/favicon.png">
+    <link rel="icon" href="/assets/img/favicon3.png">
   
   
     <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
@@ -89,8 +89,25 @@ ga('send', 'pageview');
 <div class="container">
   <br>
   <div id=header-img >
-    <img src=/assets/img/hkust.png alt="HKUST", width="100%">
+    <img class="headerSlides" src=/assets/img/header2.jpg alt="header-img", width="100%">
+    <img class="headerSlides" src=/assets/img/header1.jpg alt="header-img", width="100%">
   </div>
+  <script>
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("headerSlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 3000); // Change image every 2 seconds
+    }
+  </script>
 </div>
 
   <div class="container">
@@ -120,13 +137,13 @@ ga('send', 'pageview');
     
   
     <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/07/11/home/">home</a>
+      <a class="archive-article-title" href="/2020/07/12/home/">home</a>
     </h1>
   
 
 
     <div class="article-datetime">
-  <a href="/2020/07/11/home/" class="archive-article-date"><time datetime="2020-07-10T20:21:59.969Z" itemprop="datePublished">July 11th</time></a>
+  <a href="/2020/07/12/home/" class="archive-article-date"><time datetime="2020-07-11T17:33:28.255Z" itemprop="datePublished">July 12th</time></a>
 </div>
 
   </header>
@@ -147,7 +164,7 @@ ga('send', 'pageview');
   <div class="sidebar-module sidebar-module-inset">
   <!-- <h4>About</h4> -->
   <p>
-    <img src="/assets/img/person.jpg" alt="Boyu" style="margin-left:auto; margin-right:auto; display:block; width:90%; border-radius: 50%;">
+    <img src="/assets/img/about.jpg" alt="Boyu" style="margin-left:auto; margin-right:auto; display:block; width:95%; border-radius: 50%;">
     <h3>About</h3>
     Boyu Zhou, Ph.D. Candidate in the <a href="http://uav.ust.hk" target="_blank" rel="noopener">Aerial Robotics Group</a>,
     <a href="http://ri.ust.hk" target="_blank" rel="noopener">Robotics Institute</a>, Hong Kong University of Science and Technology. 
@@ -184,17 +201,17 @@ ga('send', 'pageview');
        -->
       <li>
         <a href="/">
-          <img src="/assets/img/icon_home.png" style="height: 20px; vertical-align: text-top; margin-right: 8px; border-radius: 50%;">Home
+          <img src="/assets/img/home_icon.png" style="height: 20px; vertical-align: middle; margin-right: 8px;">Home
         </a>
       </li>
       <li>
         <a href="/pub">
-          <img src="/assets/img/pub_icon.png" style="height: 20px; vertical-align: text-top; margin-right: 8px; border-radius: 50%;">Publications
+          <img src="/assets/img/pub_icon.png" style="height: 21px; vertical-align: middle; margin-right: 8px;">Publications
         </a>
       </li>
       <li>
         <a href="/video">
-          <img src="/assets/img/video_icon.png" style="height: 20px; vertical-align: text-top; margin-right: 8px; border-radius: 50%;">Videos
+          <img src="/assets/img/video_icon.png" style="height: 21px; vertical-align: middle; margin-right: 8px;">Videos
         </a>
       </li>
     </ul>
